@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "prisma": {
+    "schema": "./db/schema.prisma"
+  },
+  "dependencies": {
+    "@redwoodjs/api": "^0.28.4",
+    "@redwoodjs/api-server": "^0.28.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "prettier-plugin-prisma": "^0.7.0"
+  }
+}
