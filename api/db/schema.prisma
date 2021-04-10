@@ -8,12 +8,6 @@ datasource DS {
   url      = env("DATABASE_URL")
 }
 
-model UserExample {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-}
-
 model Coach {
   id          String   @id
   createdAt   DateTime @default(now())
