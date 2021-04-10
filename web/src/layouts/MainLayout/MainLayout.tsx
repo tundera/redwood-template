@@ -5,7 +5,7 @@ const MainLayout = ({ children }) => {
     <>
       <header>
         <h1>
-          <Link to={routes.home()}>Redwood Demo</Link>
+          <Link to={routes.home()}>Redwood Template</Link>
         </h1>
         <nav>
           <ul>
